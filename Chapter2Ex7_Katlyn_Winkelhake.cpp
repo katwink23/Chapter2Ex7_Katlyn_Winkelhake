@@ -17,13 +17,18 @@ that the user can enter the number of the number of millimeters the ocean level 
 */
 
 #include <iostream>
+const double levelRise = 1.5;
+using namespace std;
+
 
 int main()
 {
-
-
-
-
+	double FiveYearLevel = levelRise * 5;
+	double SevenYearLevel = levelRise * 7;
+	double TenYearLevel = levelRise * 10;
+	std::cout << "After five years the ocean will have risen " << FiveYearLevel << " millimeters."<<endl;
+	std::cout << "After seven years the ocean will have risen " << SevenYearLevel << " millimeters."<<endl;
+	std::cout << "After ten years the ocean will have risen " << TenYearLevel << " millimeters.";
 
 
 
