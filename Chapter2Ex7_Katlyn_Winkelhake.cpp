@@ -16,6 +16,8 @@ Once you have coded this and placed in your main branch in GitHub, create a seco
 that the user can enter the number of the number of millimeters the ocean level rises per year..
 */
 
+// branch2
+
 #include <iostream>
 
 using namespace std;
@@ -24,7 +26,7 @@ using namespace std;
 int main()
 {
 	double levelRise;
-		cout << "Enter the amount the ocean level rises per year:" << endl;
+		cout << "Enter the amount the ocean level rises per year:" <<endl;
 		cin >> levelRise;
 	
 	double FiveYearLevel = levelRise * 5;
