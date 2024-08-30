@@ -28,7 +28,7 @@ int main()
 	double TenYearLevel = levelRise * 10;
 	cout << "After five years the ocean will have risen " << FiveYearLevel << " millimeters."<<endl;
 	cout << "After seven years the ocean will have risen " << SevenYearLevel << " millimeters."<<endl;
-	cout << "After ten years the ocean will have risen " << TenYearLevel << " millimeters.";
+	cout << "After ten years the ocean will have risen " << TenYearLevel << " millimeters."<<endl;
 
 
 
